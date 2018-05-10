@@ -17,7 +17,11 @@
         }),
         new chrome.declarativeContent.PageStateMatcher({
           pageUrl: {hostContains: 'google.com'},
+        }),
+        new chrome.declarativeContent.PageStateMatcher({
+          pageUrl: {hostContains: 'github.com'},
         })
+
         ],
             actions: [new chrome.declarativeContent.ShowPageAction()]
       }
