@@ -1,0 +1,19 @@
+{
+  "name": "KeyCode Generator",
+  "description": "Generate the keyCode of the pressed key",
+  "version": "2.0",
+
+  "permissions": ["activeTab","tabs","storage","declarativeContent"], 
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_title": "KeyCode Generator",
+    "default_popup": "popup.html"
+  },
+  
+
+  "manifest_version": 2 
+}
