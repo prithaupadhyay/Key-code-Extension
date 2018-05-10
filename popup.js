@@ -6,9 +6,9 @@
 // 	document.getElementById("generatedcode").innerHTML=p;
 // });
 
-document.getElementById("data").addEventListener("keydown",function(event){
-	var x=event.keyCode;
-	document.getElementById('generatedcode').innerHTML=" "+ x+" ";
-	document.getElementById("data").value="";                                               //To backspace the key after each press
-
+document.body.addEventListener("keydown",function(event){
+	document.getElementsByClassName('text-display')[0].style.visibility = 'hidden';
+	var x = event.keyCode;
+	document.getElementById('generatedcode').innerHTML=" " + x + " ";
+	// document.getElementById("data").value="";                                               //To backspace the key after each press
 })

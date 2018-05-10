@@ -3,10 +3,17 @@
   "description": "Generate the keyCode of the pressed key",
   "version": "2.0",
 
-  "permissions": ["activeTab","tabs","storage","declarativeContent"], 
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "declarativeContent"
+  ], 
 
   "background": {
-    "scripts": ["background.js"],
+    "scripts": [
+      "background.js"
+    ],
     "persistent": false
   },
   "page_action": {

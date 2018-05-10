@@ -1,15 +1,43 @@
 <!DOCTYPE html>
   <html>
-  
     <head>
-
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     </head>
-    <body>
-      <h1 style="text-align: center; text-decoration: underline;">Key Code Generator</h1>
-      <input id="data" type="text" name="data" maxlength="1" placeholder="Key" value="">                     <!-- type=hidden -->
-      <h1 id="generatedcode" style="text-align: center;"></h1>
+    <body style="width: 200px; height: 150px;">
+      <h1 style="text-align: center;">Key Code</h1>
+      <p id="generatedcode" style="text-align: center;"></p>
+      <p class="text-display">press any key to get the JavaScript event keycode</p>      
       <script type="text/javascript" src="popup.js"></script>
     </body>
+    
+    <style>
+     html,body {
+      font-family: 'Montserrat', 'sans-serif';
+      color:#424242;
+      overflow: hidden;
+    }
+
+    p {
+      font-size:40vmin;
+      text-align: center;
+      margin: 0;
+    }
+
+    p.text-display {
+      display: inline-block;
+      color: #5E5E5E;
+      font: bold 10px arial;
+      text-decoration: none;
+      text-align: center;
+      margin: 20px auto;
+      padding: 15px 20px;
+      background: #EFF0F2;
+      border-radius: 4px;
+      border-top: 1px solid #F5F5F5;
+      box-shadow: inset 0 0 25px #E8E8E8, 0 1px 0 #C3C3C3, 0 2px 0 #C9C9C9, 0 2px 3px #333;
+      text-shadow: 0px 1px 0px #F5F5F5;
+    }
+    </style>
   </html>
 
   <!-- //such onclick events does not work for chrome extensions as -->
