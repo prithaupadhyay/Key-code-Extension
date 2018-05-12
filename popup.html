@@ -3,8 +3,10 @@
     <head>
         <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     </head>
-    <body style="width: 200px; height: 150px;">
+    <body style="width: 200px; height: 170px;">
       <h1 style="text-align: center;">Key Code</h1>
+      <!-- <h6 id="inspire">Inspired By <a href="http://keycode.info/">keycode.info</a></h6> -->
+      <h6 id="inspirebig">Inspired By <a id="inspire">keycode.info </a></h6>
       <p id="generatedcode" style="text-align: center;"></p>
       <p class="text-display">press any key to get the JavaScript event keycode</p>      
       <script type="text/javascript" src="popup.js"></script>
@@ -15,6 +17,10 @@
       font-family: 'Montserrat', 'sans-serif';
       color:#424242;
       overflow: hidden;
+    }
+
+    #inspirebig{
+      text-align: right;
     }
 
     p {
@@ -29,8 +35,9 @@
       font: bold 10px arial;
       text-decoration: none;
       text-align: center;
-      margin: 20px auto;
-      padding: 15px 20px;
+      margin: 2px auto;
+     /* padding: 15px 20px;*/
+     padding: 5px;
       background: #EFF0F2;
       border-radius: 4px;
       border-top: 1px solid #F5F5F5;

@@ -12,3 +12,7 @@ document.body.addEventListener("keydown",function(event){
 	document.getElementById('generatedcode').innerHTML=" " + x + " ";
 	// document.getElementById("data").value="";                                               //To backspace the key after each press
 })
+
+document.getElementById("inspire").addEventListener("click",function(){
+	chrome.tabs.create({url: 'http://keycode.info/'})
+})
