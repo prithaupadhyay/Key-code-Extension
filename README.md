@@ -7,7 +7,8 @@
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](http://forthebadge.com)
 
-A simple Chrome extension for key codes of the pressed keys.
+A simple Chrome extension for key codes of the pressed keys.<br />
+Inspired By [keycode.info](http://keycode.info/)
 
 ## Installation
 
