@@ -13,12 +13,12 @@ A simple Chrome extension for key codes of the pressed keys.
 
  - Get it locally -
    ```sh
-   $ git clone https://github.com/prithaupadhyay/KeyCode-Extension-.git
+   $ git clone https://github.com/prithaupadhyay/Key-code-Extension
    ```
 
    **OR**
 
-   Download the latest version here: [KeyCode](https://github.com/prithaupadhyay/KeyCode-Extension-/archive/master.zip)
+   Download the latest version here: [KeyCode](https://github.com/prithaupadhyay/Key-code-Extension/archive/master.zip)
 
  - Go to `chrome://extensions/`.
  - Click on Load Unpacked Extension and Open/Select the folder.
